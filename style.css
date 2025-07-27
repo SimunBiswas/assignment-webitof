@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #eee2d7;
+    color: #200306;
+    overflow-x: hidden;
+  }
+  .spacer {
+    height: 100vh;
+    background: #eee;
+  }
+  
+  
+  .capsule-wrapper {
+  position: relative;
+  width: 100%;
+  height: auto; /* Let it grow with inner content */
+  display: block;
+}
+  
+  .capsule-top,
+  .capsule-bottom {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: linear-gradient(
+      90deg,
+      rgb(209, 208, 206),
+      rgba(227, 226, 225, 0.97) 5%,
+      rgba(251, 250, 250, 0.92) 25%,
+      rgba(251, 250, 249, 0.92) 52%,
+      rgba(243, 242, 241, 0.92) 64%,
+      rgba(219, 218, 216, 0.97) 93%,
+      rgb(210, 208, 206)
+    );
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 160.259px 160.259px 5.999px 5.999px;
+    font-size: 13.712px;
+    line-height: 21.425px;
+    transition: all 0.3s ease;
+    z-index: 500;
+  }
+  
+  .capsule-top {
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .capsule-bottom {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(180deg);
+    z-index: 499;
+  }
+
+  .cta {
+    display: flex;
+    position: absolute;
+    padding: 2vmin 5vmin;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #db1026;
+    color: #fff;
+    font-size: 2.5vmin;
+    font-weight: 900;
+    letter-spacing: .1ch;
+    text-decoration: none;
+    text-transform: uppercase;
+    transform: translateX(200%) !important;
+    scale: 0.8;
+    z-index: 1000;
+  }
+  .w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.cta-tiny {
+    margin-top: .5vmin;
+    font-size: 1vmin;
+    line-height: 1vmin;
+    letter-spacing: .5ch;
+}
+  
+  /* Logo */
+  .logo-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  
+  .trubrain-logo {
+    margin-bottom: 8px;
+  }
+  
+  .trubrain-capsules {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.3ch;
+    color: #05c3de;
+    text-transform: uppercase;
+  }
+    .offer {
+        position: relative; /* ⛔ Don't use absolute */
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 150px 0;
+        z-index: 1;
+      }
+    .container {
+        width: 100vh;
+        padding: 10vmin 5vmin;
+    }
+
+    .offer-head {
+        font-size: 14vmin;
+        line-height: 12vmin;
+        font-weight: 900;
+        text-transform: uppercase;
+        position: relative;
+        top: 100%; 
+        transform: translate(30%, 100vh) rotate(90deg);
+        z-index: 10;
+        /* opacity: 10% !important; */
+        /* filter: blur(20px); */
+        /* top: 100%; */
+        margin: 0 !important;
+    }
+
+    .offer-head.red-txt {
+        position: relative;
+        /* margin-top: 4vmin;
+        margin-bottom: 10vmin; */
+        padding-left: 5vmin;
+    }
+    .red-txt {
+        color: #db1026;
+    }
+    
+    h1 {
+        margin: .67em 0;
+        display: block;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        unicode-bidi: isolate;
+    }
+    .offer-more {
+        position: absolute;
+        left: -26%;
+        top: -17%;
+        right: auto;
+        bottom: auto;
+        z-index: 2;
+        font-family: Brandon, sans-serif;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transform: perspective(2000px) rotate(-90deg);
+        transform: perspective(2000px) rotate(-90deg);
+        -webkit-transform-origin: 100% 50%;
+        -ms-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+        font-size: 47%;
+        line-height: 100%;
+        font-weight: 300;
+        letter-spacing: .25ch;
+    }
+    .offer-p {
+        display: inline-block;
+       width: 340px;
+       height: 90px;
+        transform-origin: 0% 100%;
+        font-size: 60px;
+        line-height: 7vmin;
+        font-weight: 900;
+        text-transform: uppercase;
+        position: relative;
+        top: 100%;
+        left: 60%;
+        transform: translate(100%, 100vh) rotate(90deg);
+        z-index: 10;
+        padding-left: 5vmin;
+        font-family: Brandon, sans-serif;
+      
+    }
+    .offer-p.red-txt {
+        letter-spacing: -.05ch;
+    }
+    .white-txt {
+        color: #fff;
+    }
+    .offer-more.white-txt {
+        z-index: 1;
+        padding-left: 2vmin;
+    }
+   .offer-img{
+    transform: translateX(-50%);
+   }
+   .offer-money{
+    position: fixed;
+    left: 50%;
+    top: 37%;
+    right: auto;
+    bottom: auto;
+    z-index: -1;
+    opacity: .52;
+    transform: translate(200%, 0);
+    color: #fff;
+    font-size: 50vmin;
+    line-height: 50vmin;
+    font-weight: 900;
+    letter-spacing: -.12ch;
+   }
+  
+  /* Responsive Breakpoints */
+  @media (max-width: 575.98px) {
+    .capsule-top {
+        top: 35%;
+      width: 260px;
+      height: 320px;
+    }
+    .capsule-bottom {
+      width: 240px;
+      height: 320px;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .capsule-top {
+      width: 280px;
+      height: 350px;
+    }
+    .capsule-bottom {
+      width: 260px;
+      height: 350px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .capsule-top {
+      width: 350px;
+      height: 420px;
+    }
+    .capsule-bottom {
+      width: 340px;
+      height: 420px;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .capsule-top {
+      width: 360px;
+      top: 40%;
+      height: 430px;
+    }
+    .capsule-bottom {
+      width: 340px;
+      height: 430px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .capsule-top {
+      width: 380px;
+      height: 420px;
+    }
+    .capsule-bottom {
+      width: 360px;
+      height: 440px;
+    }
+  }
+  

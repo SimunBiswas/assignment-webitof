@@ -37,7 +37,7 @@ body {
     /* background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat; */
-    border-radius: 160.259px 160.259px 5.999px 5.999px;
+    border-radius: 180.259px 180.259px 5.999px 5.999px;
     font-size: 13.712px;
     line-height: 21.425px;
     transition: all 0.3s ease;
@@ -276,7 +276,7 @@ body {
   
   @media (min-width: 1200px) {
     .capsule-top {
-      width: 370px;
+      width: 375px;
       height: 420px;
     }
     .capsule-bottom {

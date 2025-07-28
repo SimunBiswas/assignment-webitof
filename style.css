@@ -29,14 +29,14 @@ body {
       rgb(209, 208, 206),
       rgba(227, 226, 225, 0.97) 5%,
       rgba(251, 250, 250, 0.92) 25%,
-      rgba(251, 250, 249, 0.92) 52%,
-      rgba(243, 242, 241, 0.92) 64%,
-      rgba(219, 218, 216, 0.97) 93%,
+      rgba(251, 250, 249, 0.92) 50%,
+      rgba(243, 242, 241, 0.92) 75%,
+      rgba(219, 218, 216, 0.97) 95%,
       rgb(210, 208, 206)
     );
-    background-size: 100% 100%;
+    /* background-size: 100% 100%;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     border-radius: 160.259px 160.259px 5.999px 5.999px;
     font-size: 13.712px;
     line-height: 21.425px;
@@ -276,7 +276,7 @@ body {
   
   @media (min-width: 1200px) {
     .capsule-top {
-      width: 380px;
+      width: 370px;
       height: 420px;
     }
     .capsule-bottom {

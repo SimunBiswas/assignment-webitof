@@ -12,8 +12,8 @@ const tl = gsap.timeline({
   ease: "power2.inOut"
 });
 
-tl.to(".capsule-top", { top: "-15%", duration: 1 }, 0);
-tl.to(".capsule-bottom", { top: "105%", duration: 1 }, 0);
+tl.to(".capsule-top", { top: "-15%", duration: 0.5 }, 0);
+tl.to(".capsule-bottom", { top: "105%", duration: 0.5 }, 0);
 
 
 tl.fromTo(".offer-head",{y: "500%", rotate: 90}, {y: "-20%", rotate: 0}, "<+0.5");
